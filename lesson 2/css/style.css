@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.separator {
+    background: #EC7979;
+    width: 170px;
+    height: 1px;
+    margin: 0 auto;
+}
+
+.awesome-content {
+    padding-top: 70px;
+    margin: 0 -15px;
+}
+
+.awesome-content-item {
+    display: inline-block;
+    width: 370px;
+    margin: 0 5px;
+}
+
+.awesome-content-item_imglamp, .awesome-content-item_imgtab, .awesome-content-item_imgzip {
+    border: 1px solid #EC7979;
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.awesome-content-item_imglamp {
+    padding: 13.75px;
+}
+
+.awesome-content-item_imgtab {
+    padding-top: 23px;
+    padding-left: 13px;
+}
+
+.awesome-content-item_imgzip {
+    padding-top: 13px;
+    padding-left: 26px;
+}
+
+.awesome-content-item_imglamp img {
+    width: 65.29px;
+    height: 65.29px;
+}
+
+.awesome-content-item_imgtab img {
+    width: 66px;
+    height: 46px;
+}
+
+.awesome-content-item_imgzip img {
+    width: 44px;
+    height: 66px;
+}
+
+.awesome-text p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 40px 0 70px 0;
+    text-align: center;
+}
+
+.awesome-content-item h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    margin: 50px 0 30px;
+    text-align: center;
+}
+
+.awesome-content-item_text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
