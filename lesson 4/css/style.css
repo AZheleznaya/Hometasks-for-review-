@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #F5F5F5;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.pricing-title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    /*display: flex;*/
+    /*align-items: center;*/
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 100px 0 50px 0;
+}
+
+.pricing-separator {
+    width: 170px;
+    height: 1px;
+    background: #EC7979;
+    margin: 0 auto;
+}
+
+.pricing-text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /*display: flex;*/
+    /*align-items: center;*/
+    text-align: center;
+    color: #86878B;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.pricing-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 59px;
+}
+
+.pricing-content_title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: #333333;
+    width: 370px;
+    height: 60px;
+    border: 2px solid #F5F5F5;
+    padding-top: 10px;
+}
+
+.pricing-content_price {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    /*display: flex;*/
+    /*align-items: center;*/
+    text-align: center;
+    color: #FFFFFF;
+    background: #333333;
+    border: 2px solid #F5F5F5;
+    width: 370px;
+    height: 100px;
+    padding-top: 25px;
+}
+
+.pricing-content_text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /*display: flex;*/
+    /*align-items: center;*/
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    background: #333333;
+    border: 2px solid #F5F5F5;
+    height: 50px;
+    padding-top: 12px;
+}
+
+.pricing-content_list {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /*display: flex;*/
+    /*align-items: center;*/
+    text-align: center;
+    text-transform: capitalize;
+    color: #86878B;
+    background: #FFFFFF;
+    border: 2px solid #F5F5F5;
+    height: 50px;
+    padding-top: 12px;
+    list-style-type: none;
+}
+
+.pricing-content_optima {
+    margin: -20px 30px 30px 30px;
+    box-shadow: 0 0 15px rgba(0,0,0,30%);
+}
