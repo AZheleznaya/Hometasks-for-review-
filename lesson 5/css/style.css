@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.customers-title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 100px 0 50px 0;
+    position: relative;
+}
+
+.customers-title::after {
+    content: '';
+    position: absolute;
+    width: 170px;
+    height: 1px;
+    bottom: 0;
+    left: 43%;
+    background-color: #EC7979;
+}
+
+.customers-text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #86878B;
+    margin-top: 40px;
+}
+
+.customers-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 83px;
+}
+
+.customers-content__Jaydon {
+    padding: 0 30px 0 30px;
+}
+
+.customers-content__text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #86878B;
+    width: 370px;
+    padding: 38px 0 37px 0;
+    background: #E2E2E2;
+    border-radius: 10px;
+    position: relative;
+}
+
+.customers-content__triangle {
+    position: absolute;
+    z-index: 1;
+    bottom: -20px;
+    left: 70px;
+}
+
+.customers-content__foto {
+    padding-top: 66px;
+}
+
+.customers-content__name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: #000000;
+    display: inline-block;
+    vertical-align: 35px;
+    padding-left: 30px;
+
+}
+
+.customers-content__position {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    padding-left: 103px;
+}
