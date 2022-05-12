@@ -151,6 +151,7 @@
     border-bottom: 1px solid #BDBDBD;
     padding: 50px 0 16px;
     resize: none;
+    outline: none;
 }
 
 .form-list__button {
@@ -187,16 +188,14 @@
 
 .socials__list {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     list-style-type: none;
-    width: 570px;
-    margin: 0 auto;
 }
 
 .socials__list_item {
     color: #CCCCCC;
     font-size: 50px;
-    padding: 41.65px 0 35px;
+    padding: 41.65px 35px 35px 0;
 }
 
 .socials__list_item:hover {
