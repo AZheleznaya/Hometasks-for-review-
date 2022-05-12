@@ -180,6 +180,7 @@
     width: 370px;
     border: none;
     border-bottom: 1px solid #BDBDBD;
+    outline: none;
 }
 
 .form__btn {
