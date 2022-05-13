@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Task 3</title>
+    </head>
+    <body>
+        <section class="form">
+            <div class="wrapper">
+                <div class="container">
+                    <div class="form-text">
+                        <p>Главная</p>
+                        <img src="image/Arrow%201.svg" alt="arrow">
+                        <p>Корзина</p>
+                        <img src="image/Arrow%201.svg" alt="arrow">
+                        <p>Оформление заказа</p>
+                    </div>
+                    <form action="#" class="form-list">
+                        <h4 class="form-list__title">Способ получения</h4>
+                        <div class="form-list__first">
+                            <input type="text" class="form-list__first_item" id="city" name="city" placeholder="Город" required>
+                            <select name="postoffice" id="postoffice" class="form-list__first_item">
+                                <optgroup label="Почта России">
+                                    <option value="simple" hidden>Почта России</option>
+                                    <option value="Moscow">Москва</option>
+                                    <option value="SPb">Питер</option>
+                                </optgroup>
+                            </select>
+                            <input type="text" class="form-list__first_item" id="street" name="street" placeholder="Улица" required>
+                            <input type="text" class="form-list__first_item" id="building" name="building" placeholder="Дом" required>
+                            <input type="text" class="form-list__first_item" id="flat" name="flat" placeholder="Квартира" required>
+                            <input type="text" class="form-list__first_item" id="index" name="index" placeholder="Индекс" required>
+                            <input type="text" class="form-list__first_item" id="comment" name="comment" placeholder="Добавить комментарий" required>
+                        </div>
+                        <h4 class="form-list__title">Данные получателя</h4>
+                        <div class="form-list__second">
+                            <input type="text" class="form-list__second_item" id="surname" name="surname" placeholder="Фамилия" required>
+                            <input type="text" class="form-list__second_item" id="name" name="name" placeholder="Имя" required>
+                            <input type="text" class="form-list__second_item" id="patronymic" name="patronymic" placeholder="Отчество" required>
+                            <div class="form-list__second_label">
+                                <input type="tel" class="form-list__second_item" id="tel" name="phone" placeholder="Номер телефона" required>
+                                <label for="tel">По этому номеру телефона мы с вяжемся с вами для подтверждения заказа</label>
+                            </div>
+                            <div class="form-list__second_label">
+                                <input type="email" class="form-list__second_item" id="email" name="email" placeholder="E-mail" required>
+                                <label for="email">На эту почту вам придет письмо с составом заказа, а так же трэк-номер для его отслеживания</label>
+                            </div>
+                            <div class="form-list__second_label checkbox">
+                                <input type="checkbox" class="form-list__second_item" id="checkbox" name="checkbox">
+                                <label for="checkbox">Подписаться на рассылку новинок и акций</label>
+                            </div>
+                        </div>
+                        <h4 class="form-list__title">Способ оплаты</h4>
+                        <div class="form-list__third">
+                            <div class="form-list__third_label">
+                                <input type="radio" class="form-list__third_item" id="cash" name="cash">
+                                <label for="cash">Оплата при получении наличными или картой</label>
+                            </div>
+                            <div class="form-list__third_label">
+                                <input type="radio" class="form-list__third_item" id="card" name="card">
+                                <label for="cash">Оплата банковской картой онлайн</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
