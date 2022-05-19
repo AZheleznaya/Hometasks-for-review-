@@ -324,7 +324,7 @@
     font-size: 18px;
     line-height: 21px;
     color: #000000;
-    margin-bottom: 27px;
+    margin-bottom: 36px;
 }
 
 .tab-content-text_btn {
@@ -338,7 +338,6 @@
     color: #FFFFFF;
     background: #EC7979;
     text-decoration: none;
-    display: block;
     width: 270px;
     padding: 15px 65px;
 }
@@ -880,10 +879,18 @@
 @media (max-width: 1024px) {
     .banner-description__button {
         padding: 10px 53px;
+        width: 67%;
     }
     .banner-description__title {
         font-size: 36px;
         line-height: 42px;
+    }
+    .banner-description__title::after {
+        width: 143px;
+    }
+    .awesome-title::after, .pricing-title::after, .customers-title::after, .poster-content__title::after, .contact__title::after {
+        width: 20%;
+        left: 40%;
     }
     .banner-description__text, .axit-footer-content__description_text, .tab-content-text_description,.awesome-text p, .awesome-content-item_text, .pricing-text, .customers-text, .customers-content-item-text, .customers-content-item-user__person_position, .poster-content__description, .contact__text, .footer-content__copyright {
         font-size: 14px;
@@ -948,14 +955,17 @@
         padding: 0 0 50px;
         text-align: center;
     }
-    .banner-description__title::after {
-        left: 20%;
+    .banner-description__title::after, .awesome-title::after, .pricing-title::after, .customers-title::after, .poster-content__title::after, .contact__title::after {
+        width: 30%;
+        left: 35%;
     }
     .banner-description__text, .banner-description__button {
         width: 100%;
     }
     .banner-form {
         padding: 0;
+        width: 100%;
+        align-self: center;
     }
     .banner-form__list {
         display: block;
@@ -993,9 +1003,6 @@
     }
     .awesome-content {
         flex-direction: column;
-    }
-    .awesome-title::after, .pricing-title::after, .customers-title::after, .poster-content__title::after, .contact__title::after {
-        left: 20%;
     }
     .awesome-content-item {
         width: 100%;
