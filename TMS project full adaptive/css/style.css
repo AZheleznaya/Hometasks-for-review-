@@ -941,7 +941,7 @@
         display: none;
     }
     .banner-content {
-        display: block;
+        flex-direction: column;
         padding: 80px 0 50px;
     }
     .banner-description {
@@ -970,7 +970,7 @@
         width: 100%;
     }
     .axit-footer-content {
-        display: block;
+        flex-direction: column;
         text-align: center;
     }
     .socials-list {
@@ -992,7 +992,7 @@
         padding: 10px 25px;
     }
     .awesome-content {
-        display: block;
+        flex-direction: column;
     }
     .awesome-title::after, .pricing-title::after, .customers-title::after, .poster-content__title::after, .contact__title::after {
         left: 20%;
@@ -1002,7 +1002,7 @@
         padding: 0;
     }
     .pricing-content {
-        display: block;
+        flex-direction: column;
         margin: 0;
     }
     .pricing-content_basic, .pricing-content_optima, .pricing-content_pro {
@@ -1013,7 +1013,7 @@
         margin: 27px 0;
     }
     .customers-content {
-        display: block;
+        flex-direction: column;
         padding: 24px 0 0 0;
     }
     .customers-content__item {
@@ -1025,7 +1025,7 @@
         text-align: center;
     }
     .form-list__item {
-        display: block;
+        flex-direction: column;
     }
     .form-list__item_input, .form-list__item_textarea {
         width: 100%;
