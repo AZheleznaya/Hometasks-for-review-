@@ -144,6 +144,7 @@
     background: #FFFFFF;
     color: #FF4343;
     border-radius: 10px;
+    transition: 0.3s;
 }
 
 .features-content {
@@ -299,7 +300,7 @@
 .socials-item svg:hover {
     fill: #FF4343;
     opacity: 0.8;
-    transform: scale(1.1) translateY(-20px);
+    transform: scale(1.1) translateY(-5px);
     transition: 0.5s;
 }
 
@@ -417,14 +418,15 @@
     color: #FFFFFF;
     text-decoration: none;
     background: #FF4343;
-    padding: 24px 80px;
+    padding: 22px 76px;
+    border: 3px solid #FF4343;
 }
 
 .download__button a:hover {
     background: #FFFFFF;
     color: #FF4343;
-    border: 3px solid #FF4343;
     border-radius: 10px;
+    transition: 0.3s;
 }
 
 .footer-top {
@@ -482,7 +484,7 @@
 .footer-content__socials_item svg:hover {
     fill: #FF4343;
     opacity: 0.5;
-    transform: scale(1.1) translateY(-20px);
+    transform: scale(1.1) translateY(-5px);
     transition: 0.5s;
 }
 
@@ -662,7 +664,7 @@
     .download__button a {
         font-size: 18px;
         line-height: 21px;
-        padding: 24px 70.5px;
+        padding: 22px 74.5px;
     }
 
     .footer-content {
@@ -900,7 +902,7 @@
     }
 
     .download__button a {
-        padding: 28px 60px;
+        padding: 25px 57px;
     }
 
     .footer-content {
