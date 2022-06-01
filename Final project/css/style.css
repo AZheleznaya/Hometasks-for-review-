@@ -240,6 +240,7 @@
 
 .works-item:hover .works-item__content:hover {
     opacity: 1;
+    cursor: pointer;
 }
 
 .team-content {
